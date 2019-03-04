@@ -3,16 +3,17 @@
   "version": "0.1.0",
   "description": "NodeJS CLI Boilerplate",
   "main": "index.js",
-  "repository": "https://github.com/dcefra/nodejs-cli-boilerplate",
+  "repository": "https://github.com/dcefram/nodejs-cli-boilerplate",
   "author": "Daniel Cefram S. Ramirez",
   "license": "MIT",
   "private": true,
   "bin": {
-    "dan-dan-dan-dun": "./bin/dan-dan-dan-dun.js"
+    "nodejs-cli-boilerplate": "./bin/nodejs-cli-boilerplate.js"
   },
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
-    "is-elevated": "^2.0.1"
+    "is-elevated": "^2.0.1",
+    "shelljs": "^0.8.3"
   }
 }
